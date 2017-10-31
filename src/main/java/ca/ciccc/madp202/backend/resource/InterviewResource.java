@@ -41,8 +41,8 @@ public class InterviewResource {
 		return profile;
 	}
 	
-	@Path("/users")
-	@GET
+	@Path("/login")
+	@POST
 	@Produces(MediaType.APPLICATION_JSON)
 	public Profile getLogin(Credential credential) {
 		CredentialService cs = new CredentialService();

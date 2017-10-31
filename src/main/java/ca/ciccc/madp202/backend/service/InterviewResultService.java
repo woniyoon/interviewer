@@ -34,7 +34,7 @@ public class InterviewResultService {
 
 	String url = "jdbc:mysql://localhost:3306/users?autoReconnect=true&useSSL=false";
 	String id = "root";
-	String password = "gjddj02!";
+	String password = "Lime1234";
 
 	public InterviewResult marking(InterviewResult interviewResult, CollectedAnswer collectedAnswer) {
 
