@@ -41,7 +41,7 @@ public class InterviewResource {
 		return profile;
 	}
 	
-	@Path("/login")
+	@Path("/users")
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
 	public Profile getLogin(Credential credential) {
@@ -63,8 +63,6 @@ public class InterviewResource {
 		return quiz;
 	}
 	
-
-
 	
 	@Path("/history")
 	@POST
