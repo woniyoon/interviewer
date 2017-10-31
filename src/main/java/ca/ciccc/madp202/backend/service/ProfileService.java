@@ -25,7 +25,7 @@ public class ProfileService {
 
 	String url = "jdbc:mysql://localhost:3306/users?autoReconnect=true&useSSL=false";
 	String id = "root";
-	String password = "gjddj02!";
+	String password = "Lime1234";
 
 	public void addUser(User user) {
 
